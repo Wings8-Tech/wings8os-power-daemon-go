@@ -1,5 +1,5 @@
 ## Usage
-  Jemaos power daemon is wroted to receive the signals from cros power daemon, and run some script.
+  Wings8os power daemon is wroted to receive the signals from cros power daemon, and run some script.
 
 ## Signals 
 #### Suspend/Resume

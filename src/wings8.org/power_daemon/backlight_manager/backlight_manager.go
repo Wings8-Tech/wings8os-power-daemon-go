@@ -12,7 +12,7 @@ import (
 
     "github.com/godbus/dbus/v5"
     pmpb "go.chromium.org/chromiumos/system_api/power_manager_proto"
-    "jemaos.com/power_daemon/dbusutil"
+    "wings8.org/power_daemon/dbusutil"
 )
 
 const (
