@@ -7,12 +7,12 @@ import (
     "time"
 
     "github.com/godbus/dbus/v5"
-    "jemaos.com/power_daemon/backlight_manager"
-    "jemaos.com/power_daemon/dbusutil"
-    "jemaos.com/power_daemon/suspend_manager"
+    "wings8.org/power_daemon/backlight_manager"
+    "wings8.org/power_daemon/dbusutil"
+    "wings8.org/power_daemon/suspend_manager"
 )
 
-// main is the entry point of the JemaOS Power Daemon.
+// main is the entry point of the Wings8OS Power Daemon.
 // It initializes the D-Bus connection, registers managers, and starts the signal server.
 func main() {
     // Set log output to standard output.
